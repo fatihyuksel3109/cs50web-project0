@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Google Search</a>
+        <a href="image-search.html">Image Search</a>
+        <a href="advanced-search.html">Advanced Search</a>
+      </nav>
+    </header>
+    <main>
+      <div class="logo-container">
+        <img src="assets/google_logo.png" alt="Google Logo" />
+      </div>
+      <form action="https://www.google.com/search">
+        <div>
+          <label for="all-words">Find pages with all these words:</label>
+          <input
+            type="text"
+            name="as_q"
+            id="all-words"
+            placeholder="Find pages with all these words"
+          />
+        </div>
+        <div>
+          <label for="exact-phrase"
+            >Find pages with this exact word or phrase:</label
+          >
+          <input
+            type="text"
+            name="as_epq"
+            id="exact-phrase"
+            placeholder="Find pages with this exact word or phrase"
+          />
+        </div>
+        <div>
+          <label for="any-words">Find pages with any of these words:</label>
+          <input
+            type="text"
+            name="as_oq"
+            id="any-words"
+            placeholder="Find pages with any of these words"
+          />
+        </div>
+        <div>
+          <label for="none-words">Find pages with none of these words:</label>
+          <input
+            type="text"
+            name="as_eq"
+            id="none-words"
+            placeholder="Find pages with none of these words"
+          />
+        </div>
+        <div>
+          <input type="submit" value="Google Advanced Search" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
